@@ -8,7 +8,7 @@ export default function Profile(props) {
 
   return (
     <>
-      <header className=" h-20 md:h-10 flex justify-between items-center w-full px-10">
+      <header className="h-20 md:h-10 flex justify-between items-center w-full px-10">
         <h2 className='text-2xl uppercase'>maya</h2>
 
         <nav className={`${isActive ? "opacity-0 invisible" : "rounded-bl-lg visible bg-gray-600 text-white"} md:opacity-100 transition ease-in-out duration-400 absolute md:relative md:visible right-0 top-0 p-8 md:p-0`}>

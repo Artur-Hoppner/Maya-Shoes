@@ -5,7 +5,7 @@ export default function productItem(props) {
     <>
       <div>
         <div style={{backgroundImage: `url(${props.product.image.asset.url})`}}  className="w-full h-[60vh] relative bg-cover bg-left bg-no-repeat">
-          <p className={` z- absolute top-5 left-5 py-2 px-5 bg-white ${props.product.tagColor}`}>{props.product.tag}</p>
+          <p className={`absolute top-5 left-5 py-2 px-5 bg-white ${props.product.tagColor}`}>{props.product.tag}</p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 pt-4">
           <div>
